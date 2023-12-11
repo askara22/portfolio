@@ -29,14 +29,19 @@
 
 		h1{
 			font-size: 100px;
-			line-height: 100px;
+			line-height: 30px;
 
 			@media screen and (max-width: 760px){
 				font-size: 36px;
 			}
 		}
 
+		h2{
+			font-size: 15px;
+		}
+
 		span{
+			font-size: 12px;
 			font-weight: 300;
 		}
 	}
@@ -47,7 +52,8 @@
 
 		@media screen and (max-width: 760px){
 			width: 100%;
-			padding: 50px;		
+			padding: 50px;
+			bottom: 80px;		
 		}
 
 		.phoneSvg{
@@ -57,7 +63,7 @@
 			z-index: -1;
 
 			@media screen and (max-width: 760px){
-				
+				right: 25px;
 			}
 
 			svg{

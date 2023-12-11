@@ -43,7 +43,7 @@ const About = () => {
 		</motion.div>
 		<motion.div className="titleContainer" variants={variants}>
 			<div className="title">
-				<img src="/public/programmer.jpg" alt="" />
+				<img src="/programmer.jpg" alt="" />
 				<h1>What <motion.b whileHover={{ color:"#ff364d" }}>Skills</motion.b></h1>
 			</div>
 			<div className="title">

@@ -8,8 +8,8 @@
 	align-items: center;
 	gap: 50px;
 
-	@include mobile{
-		width: 100%;
+	@media screen and (max-width: 760px){
+	width: 100%;
 		padding: 10px;
 		flex-direction: column;
 	}
@@ -20,7 +20,7 @@
 		flex-direction: column;
 		gap: 40px;
 
-		@include mobile{
+		@media screen and (max-width: 760px){
 			gap: 20px;
 			text-align: center;
 			align-items: center;
@@ -31,7 +31,7 @@
 			font-size: 100px;
 			line-height: 100px;
 
-			@include mobile{
+			@media screen and (max-width: 760px){
 				font-size: 36px;
 			}
 		}
@@ -45,7 +45,7 @@
 		flex: 1;
 		position: relative;
 
-		@include mobile{
+		@media screen and (max-width: 760px){
 			width: 100%;
 			padding: 50px;		
 		}
@@ -56,9 +56,15 @@
 			margin: auto;
 			z-index: -1;
 
-			@include mobile{
-				right: -70px;
-					
+			@media screen and (max-width: 760px){
+				
+			}
+
+			svg{
+				@media screen and (max-width: 760px){
+					width: 300px;
+					height: 300px;
+				}
 			}
 		}
 
@@ -74,7 +80,7 @@
 				color: white;
 				border-radius: 5px;
 
-				@include mobile{
+				@media screen and (max-width: 760px){
 					padding: 10px;
 				}
 			}
@@ -86,7 +92,7 @@
 				cursor: pointer;
 				font-weight: 500;
 
-				@include mobile{
+				@media screen and (max-width: 760px){
 					padding: 10px;
 				}
 			}

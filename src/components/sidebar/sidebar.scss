@@ -8,6 +8,10 @@
 	background-color: white;
 	color: black;
 
+	@media screen and (max-width: 400px){
+		width: 100%;
+	}
+
 	.bg{
 		z-index: 999;
 		position: fixed;
@@ -17,7 +21,7 @@
 		width: 400px;
 		background: white;
 
-		@include mobile{
+		@media screen and (max-width: 400px){
 			width: 200px;
 		}
 
@@ -34,7 +38,7 @@
 			a{
 				font-size: 40px;
 
-				@include mobile{
+				@media screen and (max-width: 400px){
 					font-size: 20px;
 				}
 			}

@@ -38,12 +38,16 @@
 		}
 
 		h2{
-			font-size: 15px;
+			@media screen and (max-width: 760px){
+				font-size: 15px;
+			}
 		}
 
 		span{
-			font-size: 12px;
 			font-weight: 300;
+			@media screen and (max-width: 760px){
+				font-size: 12px;
+			}
 		}
 	}
 

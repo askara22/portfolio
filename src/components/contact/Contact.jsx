@@ -54,7 +54,7 @@ const Contact = () => {
 			</motion.div>
 			<motion.div className="item" variants={variants}>
 				<h2>Address</h2>
-				<span>Flower Alley, Kedunghalang, Bogor City</span>
+				<span>Kembang Alley, Kedunghalang, Bogor City</span>
 			</motion.div>
 			<motion.div className="item" variants={variants}>
 				<h2>Phone</h2>

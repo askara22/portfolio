@@ -36,8 +36,8 @@ const About = () => {
 	>
 		<motion.div className="textContainer" variants={variants}>
 			<p>
-			I focused on exploring frontend developers 
-			<br /> and data analysts
+			I focus on exploring web and mobile
+			<br /> application development
 			</p>
 			<hr />
 		</motion.div>
@@ -51,7 +51,7 @@ const About = () => {
 			</div>
 			<div className="paragraph">
 				<p>
-					Fresh graduate from Telkom University majoring in Computer Science, with almost a year experience as a frontend developer, expertise in HTML, CSS, Javascript and also have worked with variety of framework, including VueJS, Laravel, and React.
+				Fresh graduate from Telkom University majoring in Computer Science, with some experience as a programmer, expertise in HTML, CSS, Javascript and has also worked with various frameworks, including VueJS, Laravel, CI, and Flutter.
 				</p>
 			</div>
 		</motion.div>
@@ -68,6 +68,8 @@ const About = () => {
 				<img src="/react.png" alt="" />
 				<img src="/tailwind.png" alt="" />
 				<img src="/vuejs.png" alt="" />
+				<img src="/flutter.png" alt="" />
+				<img src="/php.png" alt="" />
 				<img src="/bootstrap.png" alt="" />
 				<img src="/css.png" alt="" />
 				<img src="/figma.png" alt="" />
@@ -79,6 +81,8 @@ const About = () => {
 				<img src="/react.png" alt="" />
 				<img src="/tailwind.png" alt="" />
 				<img src="/vuejs.png" alt="" />
+				<img src="/flutter.png" alt="" />
+				<img src="/php.png" alt="" />
 				<img src="/bootstrap.png" alt="" />
 				<img src="/css.png" alt="" />
 				<img src="/figma.png" alt="" />
@@ -90,6 +94,8 @@ const About = () => {
 				<img src="/react.png" alt="" />
 				<img src="/tailwind.png" alt="" />
 				<img src="/vuejs.png" alt="" />
+				<img src="/flutter.png" alt="" />
+				<img src="/php.png" alt="" />
 				<img src="/bootstrap.png" alt="" />
 				<img src="/css.png" alt="" />
 				<img src="/figma.png" alt="" />
@@ -101,6 +107,8 @@ const About = () => {
 				<img src="/react.png" alt="" />
 				<img src="/tailwind.png" alt="" />
 				<img src="/vuejs.png" alt="" />
+				<img src="/flutter.png" alt="" />
+				<img src="/php.png" alt="" />
 			</motion.div>
 		</motion.div>
 	</motion.div>

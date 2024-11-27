@@ -28,6 +28,18 @@ const items = [
 		<li>Create a front-end display using VueJS for several sub menus</li>
 		<li>Using git as version control</li>
 	</ul>
+	},
+	{
+		id: 3,
+		title: "Junior Programmer",
+		subtitle: "PT Wiraswasta Gemilang Indonesia",
+		img: "/ptwgi.png",
+		desc: 
+		<ul className="ptwgi">
+		<li>Adding travel features to personnel applications using Flutter</li>
+		<li>Fixed some improvements in the mobile application for customers using Java</li>
+		<li>Collaborate with team in developing laboratory management system using CodeIgniter</li>
+	</ul>
 	}
 ]
 

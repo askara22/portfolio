@@ -43,7 +43,7 @@ const items = [
 	}
 ]
 
-const Single = ({item}) => {
+const Single = ({item, className}) => {
 	const ref = useRef()
 
 	const {scrollYProgress} = useScroll({
@@ -53,7 +53,7 @@ const Single = ({item}) => {
 	const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
 	return (
-		<section>
+		<section className={className}>
 			<div className="container">
 				<div className="wrapper">
 					<div className="imageContainer" ref={ref}>
@@ -92,7 +92,7 @@ const Portfolio = () => {
 			<motion.div style={{ scaleX }} className="progressBar"></motion.div>
 		</div>
 		{items.map((item) => (
-			<Single item={item} key={item.id} />
+			<Single item={item} key={item.id} className={item.id === 3 ? "special-item" : ""}/>
 		))}
 	</div>
   )

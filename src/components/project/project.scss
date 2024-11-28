@@ -3,6 +3,20 @@
 .portfolio{
 	position: relative;
 
+	@media screen and (max-width: 760px) {
+		.special-item .imageContainer {
+		  width: 50%;
+		  max-width: 320px;
+		  margin: 0 auto;
+		}
+	  
+		.special-item .imageContainer img {
+		  width: 100%;
+		  height: auto;
+		  object-fit: contain;
+		}
+	  }
+
 	.progress{
 		position: sticky;
 		top: 0;
@@ -46,6 +60,14 @@
 			@media screen and (max-width: 760px){
 				flex-direction: column;
 			}
+
+		
+
+
+			.imageContainer,
+			.textContainer {
+  				border: 1px solid red;
+				}
 
 			.imageContainer{
 				flex: 1;

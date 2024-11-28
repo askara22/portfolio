@@ -38,8 +38,7 @@
 			max-width: 1366px;
 			height: 100%;
 			margin: auto;
-			display: grid;
-  grid-template-columns: 1fr 1fr;
+			display: flex;
 			align-items: center;
 			justify-content: center;
 			gap: 50px;
@@ -78,7 +77,11 @@
 				flex: 1;
 				display: flex;
 				flex-direction: column;
-				padding: 20px;
+				max-width: 400px;
+				overflow-wrap: break-word;
+				word-wrap: break-word;
+				min-height: 400px;
+  				max-height: 500px;
 
 				@media screen and (max-width: 760px){
 					transform: none !important;
@@ -121,7 +124,6 @@
 					margin-left: 20px;
 					font-size: 15px;
 					line-height: 1.8em;
-					text-overflow: ellipsis;
 					
 					@media screen and (max-width: 760px){
 						font-size: 8px;
